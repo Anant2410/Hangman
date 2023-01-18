@@ -1,6 +1,6 @@
 # hangman
 
-A new Flutter project.
+A new Flutter project that predicts the correct word given by the user
 
 ## Getting Started
 
