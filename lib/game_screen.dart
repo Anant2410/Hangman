@@ -11,7 +11,7 @@ class GameScreen extends StatefulWidget {
 }
 
 class _GameScreenState extends State<GameScreen> {
-  var characters = "abcdefghijklmnopqrstuvwxyz".toUpperCase();
+  var characters = "abcdefghijklmnopqrstuvwxyz".toUpperCase(); 
   var word = "hang".toUpperCase();
   List<String> selectedchar = [];
   var tries = 0;

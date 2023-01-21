@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static final bgcolor = const Color(0xff2c3333);
-  static final textcolor = const Color(0xffe7f6f2);
+  static const bgcolor = Color(0xff2c3333);
+  static const textcolor = Color(0xffe7f6f2);
 }
 
 class Gameui {

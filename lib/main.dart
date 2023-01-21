@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hangman/game_screen.dart';
 
-
 void main() {
   runApp(MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: GameScreen(),
+      home: GameScreen(),   // the main app runs through this file
     );
   }
 }

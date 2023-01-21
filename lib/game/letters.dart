@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hangman/const/const.dart';
 
+// ignore: non_constant_identifier_names
 Widget Letter(String char, bool visible) {
   return Container(
     alignment: Alignment.center,
@@ -14,7 +15,7 @@ Widget Letter(String char, bool visible) {
       visible: !visible,
       child: Text(
         char,
-        style: TextStyle(
+        style: const TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20,
             color: AppColors.bgcolor),
